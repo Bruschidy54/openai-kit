@@ -40,6 +40,7 @@ extension Model {
         case gpt40314 = "gpt-4-0314"
         case gpt4_32k = "gpt-4-32k"
         case gpt4_32k0314 = "gpt-4-32k-0314"
+        case gpt4_1106_preview = "gpt-4-1106-preview"
         case gpt_4o = "gpt-4o"
         case gpt_4o_0513 = "gpt-4o-2024-05-13"
         case gpt_4o_mini = "gpt-4o-mini"

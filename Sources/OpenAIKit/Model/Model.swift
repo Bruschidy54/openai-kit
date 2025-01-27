@@ -36,8 +36,8 @@ public protocol ModelID {
 
 extension Model {
     public enum O1: String, ModelID {
-        case o1 = "o1-2024-12-17"
-        case o1_mini = "o1-mini-2024-09-12"
+        case o1 = "o1"
+        case o1_mini = "o1-mini"
     }
  
     public enum GPT4: String, ModelID {

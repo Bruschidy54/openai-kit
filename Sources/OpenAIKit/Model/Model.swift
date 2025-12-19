@@ -52,6 +52,10 @@ extension Model {
         case gpt_4o_mini_0718 = "gpt-4o-mini-2024-07-18"
     }
 
+    public enum GPT5: String, ModelID {
+        case gpt_5_2 = "gpt-5.2"
+    }
+
     public enum GPT3: String, ModelID {
         case gpt3_5Turbo = "gpt-3.5-turbo"
         case gpt3_5Turbo16K = "gpt-3.5-turbo-16k"
